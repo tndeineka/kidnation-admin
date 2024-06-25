@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0;
+  background-color: #fafafc;
+  overflow-y: scroll;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}

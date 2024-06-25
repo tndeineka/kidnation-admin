@@ -1,8 +1,12 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
+import { Routes, Route } from "react-router-dom";
+import LoginForm from "./pages/Authorization/LoginForm/LoginForm";
 
-function App() {
-  return <div className="App">Kid Nation</div>;
-}
-
-export default App;
+export const App = () => {
+  return (
+    <Routes>
+      <Route path="/" element={<LoginForm />} />
+    </Routes>
+  );
+};
